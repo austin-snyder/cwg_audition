@@ -94,5 +94,3 @@ plt.title('Eastern Pacific Oscillation')
 plt.savefig('epoindexmean.png')
 plt.clf()
 plt.close()
-
-print()
