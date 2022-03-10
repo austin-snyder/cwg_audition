@@ -19,7 +19,7 @@ This second graph is representative of the historical probability of extreme EPO
 # Part Two: Developing an EPO Long-Lead Indicator 
 *In 500 words or less, please describe potential strategies we could employ to develop probabilistic  expectations for EPO in the subseasonal 16-30 day outlook (weeks 3-4) space. Include thoughts (1)  unknowns/assumptions, (2) possible challenges, and (3) on required resources such as  time/compute/storage. Include potential ML algorithms that could be best suited to solve this problem  with any potential drawbacks too.*
 
-I’ve written the following under the assumption that subseasonal EPO predictions have similar properties to other meteorological forecasting, like temperature or precipitation:
+I’ve written the following under the assumption that subseasonal EPO predictions have similar properties to other meteorological forecasting, like temperature and precipitation:
 
 There are 2 types of potential models that could be used for subseasonal Eastern Pacific Oscillation (EPO) predictions: physics-based and data-based.
 
