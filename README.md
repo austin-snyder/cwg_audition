@@ -3,7 +3,7 @@
 *Analyzing the Eastern Pacific Oscillation 
 The EPO is a key teleconnection for U.S. weather patterns, especially in the winter. This two-part project  develops a quick climatology tool to help the CWG forecasters with EPO baseline expectations and starts  the planning process for ideas for subseasonal forecasting support.* 
 
-# Part One: EPO Climatology 
+## Part One: EPO Climatology 
 *We are sending you the historical daily .csv file for the EPO index back to 1950. We would like to develop a climatology baseline for this to determine historical-based probabilities for different times of the year for extreme events like one and two standard deviations +EPO and -EPO occurrences. Please write a program that does this, that would be designed to update daily with new EPO information, and  make the code and output available to the CWG team.*
 
 For this problem, the code I have written assumes that new data will be uploaded daily (and the code run again), but using the [NOAA website](https://psl.noaa.gov/data/timeseries/daily/EPO/) would allow for the program to automatically grab new data as it is uploaded, as well as run for new results.
@@ -16,7 +16,7 @@ The above graph is representative of the deviation in the expected EPO index on 
 
 This second graph is representative of the historical probability of extreme EPO index values ('events'). Over the course of any given year, the probability of an EPO index being at least 1 standard deviation greater or less than the overall mean is represented by the salmon-colored line, while the red-colored line represents the probability for 2 standard deviations. Similar to the results of the first graph, it can be seen that there is greater likelihood for 'deviant events' in the winter months, while the summer months have a near-zero likelihood for index values 2 standard deviations greater or less than the overall mean.
 
-# Part Two: Developing an EPO Long-Lead Indicator 
+## Part Two: Developing an EPO Long-Lead Indicator 
 *In 500 words or less, please describe potential strategies we could employ to develop probabilistic  expectations for EPO in the subseasonal 16-30 day outlook (weeks 3-4) space. Include thoughts (1)  unknowns/assumptions, (2) possible challenges, and (3) on required resources such as  time/compute/storage. Include potential ML algorithms that could be best suited to solve this problem  with any potential drawbacks too.*
 
 I’ve written the following under the assumption that subseasonal EPO predictions have similar properties to other meteorological forecasting, like temperature and precipitation:
