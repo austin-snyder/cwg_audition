@@ -6,7 +6,7 @@ The EPO is a key teleconnection for U.S. weather patterns, especially in the win
 ## Part One: EPO Climatology 
 *We are sending you the historical daily .csv file for the EPO index back to 1950. We would like to develop a climatology baseline for this to determine historical-based probabilities for different times of the year for extreme events like one and two standard deviations +EPO and -EPO occurrences. Please write a program that does this, that would be designed to update daily with new EPO information, and  make the code and output available to the CWG team.*
 
-For this problem, the code I have written assumes that new data will be uploaded daily (and the code run again), but using the [NOAA website](https://psl.noaa.gov/data/timeseries/daily/EPO/) would allow for the program to automatically grab new data as it is uploaded, as well as run for new results.
+For this problem, the code I have written assumes that new data will be manually uploaded daily (and the code manually run again), but using the [NOAA website](https://psl.noaa.gov/data/timeseries/daily/EPO/) would allow for the program to automatically grab and re-run new data as it is uploaded to their website.
 
 ![alt text](https://github.com/austin-snyder/cwg_audition/blob/main/epoindexmean.png?raw=true)
 
